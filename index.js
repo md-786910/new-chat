@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000/");
+const socket = io("https://romantic-ptolemy-bf04b2.netlify.app/");
 
 function Appendposition(pos, data) {
     let element = document.createElement("div");
