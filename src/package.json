@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "this is chatting app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.5.0",
+    "path": "^0.12.7",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
